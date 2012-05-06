@@ -49,7 +49,7 @@ class Gtalkbot extends Adapter
       )
       .c('query', xmlns: 'jabber:iq:roster')
 
-    self.emit "connected"
+    # self.emit "connected"
 
     # Check for buddy requests every so often
     @client.send roster_query
